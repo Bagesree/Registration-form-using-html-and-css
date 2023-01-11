@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration_form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="Container">
+    <div class="wrapper">
+<form>
+    <div class="title">
+    <h2>Registration form</h2>
+    </div>
+    <div class="input">
+        <label for="your name">Your name</label>
+        <span class="icon">
+            <i class="fa fa-user"></i>
+            <input type="text" name="your name" class="input" id="your name">
+        </span>
+    </div>
+    <div class="input">
+        <label for="email">Email</label>
+        <span class="icon">
+            <i class="fa fa-envelope"></i>
+            <input type="email" name="email" class="input" id="email">
+        </span>
+    </div>
+    <div class="input">
+        <label for="password">Password</label>
+        <span class="icon">
+            <i class="fa fa-unlock-alt"></i>
+            <input type="password" name="email" class="input" id="password">
+        </span>
+    </div>
+    <div class="input">
+        <label for="confirm password">Confirm Password</label>
+        <span class="icon">
+            <i class="fa fa-unlock-alt"></i>
+            <input type="password" name="confirm password" class="input" id="confirm password">
+        </span>
+    </div>
+    <div class="input">
+        <label for="phone">Phone</label>
+        <span class="icon">
+            <i class="fa fa-phone"></i>
+            <input type="number" name="phone" class="input" id="phone">
+        </span>
+    </div>
+    <div class="input">
+        <label>Gender</label>
+        <div class="input_radio">
+            <div class="input_radio_item">
+                <input type="radio" id="male" name="gender" class="radio" value="male">
+                <label for="male" class="radio_mark">
+                    <i class="fa fa-male"></i>
+                    Male</label>
+
+                <div class="input_radio_item">
+                    <input type="radio" id="female" name="gender" class="radio" value="female">
+                    <label for="female" class="radio_mark">
+                    <i class="fa fa-female"></i>
+                        Female</label>
+                </div>
+                <div class="input_radio_item">
+                    <input type="radio" id="others" name="gender" class="radio" value="others">
+                    <label for="others" class="radio_mark">
+                        Others</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button>Register Now</button>
+</form>
+        </div>
+</div>
+</body>
+</html>
